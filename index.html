@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>developper — Développeur Web & Solutions Tech</title>
+<meta name="description" content="Développeur freelance : sites vitrines, applications web sur-mesure, intégrations et maintenance. De l'idée au lancement, sans détour.">
+<link rel="icon" type="image/png" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/favicon-512.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav container">
+    <a href="index.html" class="nav-logo" aria-label="developper — accueil">
+      <img src="assets/logo-lockup.png" alt="developper — développeur web & solutions tech" style="height:38px;">
+    </a>
+    <div class="nav-links">
+      <a href="index.html" class="active">Accueil</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="nav-actions">
+      <a href="contact.html" class="btn btn-primary nav-cta">Démarrer un projet</a>
+      <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </nav>
+  <div class="mobile-menu">
+    <a href="index.html" class="active">Accueil</a>
+    <a href="services.html">Services</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="a-propos.html">À propos</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" class="btn btn-primary">Démarrer un projet</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="eyebrow">Développeur Web & Solutions Tech</span>
+        <h1 class="hero-headline">De l'idée au lancement, <span class="text-gradient">sans détour.</span></h1>
+        <p class="lede">J'accompagne indépendants, startups et PME dans la conception de sites et d'applications web sur-mesure — du premier brief jusqu'à la mise en ligne, et au-delà.</p>
+        <div class="hero-cta-row">
+          <a href="contact.html" class="btn btn-primary">
+            Discuter de mon projet
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+          <a href="portfolio.html" class="btn btn-outline">Voir mes réalisations</a>
+        </div>
+        <div class="hero-meta">
+          <div class="hero-meta-item">
+            <strong>[X]+</strong>
+            <span>Projets livrés</span>
+          </div>
+          <div class="hero-meta-item">
+            <strong>2–4 sem.</strong>
+            <span>Délai type pour un site vitrine</span>
+          </div>
+          <div class="hero-meta-item">
+            <strong>100%</strong>
+            <span>Missions à distance</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <svg class="path-svg" viewBox="0 0 540 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Trajectoire du projet, de l'idée à la croissance">
+          <defs>
+            <linearGradient id="pathGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#0066FF"/>
+              <stop offset="100%" stop-color="#33CC33"/>
+            </linearGradient>
+            <marker id="arrowHead" markerWidth="10" markerHeight="10" refX="6" refY="5" orient="auto">
+              <path d="M0,0 L10,5 L0,10 Z" fill="#33CC33"/>
+            </marker>
+          </defs>
+
+          <path class="path-line" d="M40,400 C 150,400 170,260 270,230 C 370,200 410,90 500,45" marker-end="url(#arrowHead)"/>
+
+          <g class="path-node path-node--1">
+            <circle cx="40" cy="400" r="7" fill="#0066FF"/>
+            <text x="58" y="405" font-family="Montserrat, sans-serif" font-weight="600" font-size="15" fill="#2F3136">Idée</text>
+          </g>
+          <g class="path-node path-node--2">
+            <circle cx="270" cy="230" r="7" fill="#1A99AA"/>
+            <text x="288" y="235" font-family="Montserrat, sans-serif" font-weight="600" font-size="15" fill="#2F3136">Code</text>
+          </g>
+          <g class="path-node path-node--3">
+            <circle cx="470" cy="70" r="7" fill="#33CC33"/>
+            <text x="380" y="55" font-family="Montserrat, sans-serif" font-weight="600" font-size="15" fill="#2F3136">Croissance</text>
+          </g>
+        </svg>
+
+        <div class="hero-card reveal" style="right: 0; bottom: 6%; max-width: 230px;">
+          <div style="display:flex; align-items:center; gap:0.6rem; margin-bottom:0.35rem;">
+            <span style="width:8px; height:8px; border-radius:50%; background:#33CC33; display:inline-block;"></span>
+            <strong style="font-family:var(--font-heading); font-size:0.85rem;">Disponible ce mois-ci</strong>
+          </div>
+          <p style="font-size:0.82rem; color:var(--color-text-muted); margin:0;">Nouvelle mission — réponse sous 24h.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider divider-white-to-light"></div>
+
+  <!-- SERVICES -->
+  <section class="section section-light" id="services">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Ce que je fais</span>
+        <h2>Un partenaire technique, pas juste un prestataire.</h2>
+      </div>
+      <div class="grid grid-4">
+
+        <div class="card reveal">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3>Développement web</h3>
+          <p>Sites vitrines et landing pages rapides, soignés, pensés pour convertir dès la première visite.</p>
+          <a href="services.html#developpement-web" class="card-link">En savoir plus
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+
+        <div class="card reveal">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+          </div>
+          <h3>Applications sur-mesure</h3>
+          <p>Outils métier, espaces clients, plateformes — conçus pour vos process réels, pas pour un cas générique.</p>
+          <a href="services.html#applications" class="card-link">En savoir plus
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+
+        <div class="card reveal">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+          </div>
+          <h3>Intégration & connexion</h3>
+          <p>CMS, paiement, API tierces, outils internes : je relie vos systèmes pour qu'ils travaillent ensemble.</p>
+          <a href="services.html#integration" class="card-link">En savoir plus
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+
+        <div class="card reveal">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+          </div>
+          <h3>Maintenance & évolutions</h3>
+          <p>Un site vivant a besoin de suivi : mises à jour, correctifs, nouvelles fonctionnalités au fil de l'eau.</p>
+          <a href="services.html#maintenance" class="card-link">En savoir plus
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Méthode</span>
+        <h2>Quatre étapes, aucune zone d'ombre.</h2>
+      </div>
+      <div class="steps reveal">
+        <div class="step">
+          <h3>Cadrage</h3>
+          <p>On clarifie l'objectif, le périmètre et le budget avant d'écrire la moindre ligne de code.</p>
+        </div>
+        <div class="step">
+          <h3>Design & prototype</h3>
+          <p>Maquette et parcours validés avec vous, pour éviter les mauvaises surprises en cours de route.</p>
+        </div>
+        <div class="step">
+          <h3>Développement</h3>
+          <p>Points d'avancement réguliers, accès à l'environnement de test en continu.</p>
+        </div>
+        <div class="step">
+          <h3>Mise en ligne & suivi</h3>
+          <p>Déploiement, formation si besoin, et disponibilité pour les ajustements post-lancement.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider divider-light-to-white" style="transform: scaleY(-1);"></div>
+
+  <!-- PORTFOLIO PREVIEW -->
+  <section class="section section-light">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Réalisations</span>
+        <h2>Quelques projets récents.</h2>
+      </div>
+      <div class="grid grid-3">
+
+        <div class="project-card reveal">
+          <div class="project-thumb">
+            <span class="project-placeholder-tag">Visuel à ajouter</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18"/></svg>
+          </div>
+          <div class="project-body">
+            <div class="project-tags"><span class="tag">Site vitrine</span><span class="tag">SEO</span></div>
+            <h3>[Nom du projet]</h3>
+            <p>[Contexte client à compléter — secteur, objectif initial.]</p>
+            <div class="project-result">[Résultat chiffré à ajouter]</div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-thumb">
+            <span class="project-placeholder-tag">Visuel à ajouter</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18"/></svg>
+          </div>
+          <div class="project-body">
+            <div class="project-tags"><span class="tag">Application</span><span class="tag">API</span></div>
+            <h3>[Nom du projet]</h3>
+            <p>[Contexte client à compléter — secteur, objectif initial.]</p>
+            <div class="project-result">[Résultat chiffré à ajouter]</div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-thumb">
+            <span class="project-placeholder-tag">Visuel à ajouter</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18"/></svg>
+          </div>
+          <div class="project-body">
+            <div class="project-tags"><span class="tag">Refonte</span><span class="tag">E-commerce</span></div>
+            <h3>[Nom du projet]</h3>
+            <p>[Contexte client à compléter — secteur, objectif initial.]</p>
+            <div class="project-result">[Résultat chiffré à ajouter]</div>
+          </div>
+        </div>
+
+      </div>
+      <div style="text-align:center; margin-top:2.5rem;" class="reveal">
+        <a href="portfolio.html" class="btn btn-outline">Voir tous les projets</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section" id="temoignages">
+    <div class="container">
+      <div class="section-head centered reveal" style="margin-left:auto; margin-right:auto;">
+        <span class="eyebrow">Témoignages</span>
+        <h2>Ce qu'on retient de travailler ensemble.</h2>
+      </div>
+      <div class="grid grid-3">
+        <div class="testimonial-card reveal">
+          <span class="placeholder-badge">Exemple</span>
+          <p class="testimonial-quote">« [Témoignage à ajouter — ce que le client a concrètement gagné à travailler avec vous.] »</p>
+          <div class="testimonial-person">
+            <span class="testimonial-avatar"></span>
+            <div><strong>[Nom du client]</strong><span>[Entreprise, poste]</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <span class="placeholder-badge">Exemple</span>
+          <p class="testimonial-quote">« [Témoignage à ajouter — ce que le client a concrètement gagné à travailler avec vous.] »</p>
+          <div class="testimonial-person">
+            <span class="testimonial-avatar"></span>
+            <div><strong>[Nom du client]</strong><span>[Entreprise, poste]</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <span class="placeholder-badge">Exemple</span>
+          <p class="testimonial-quote">« [Témoignage à ajouter — ce que le client a concrètement gagné à travailler avec vous.] »</p>
+          <div class="testimonial-person">
+            <span class="testimonial-avatar"></span>
+            <div><strong>[Nom du client]</strong><span>[Entreprise, poste]</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BAND -->
+  <section class="section" style="padding-top:0;">
+    <div class="container">
+      <div class="cta-band reveal">
+        <div>
+          <h2>Un projet en tête ?</h2>
+          <p>Décrivez-moi votre besoin en quelques lignes — je reviens vers vous sous 24h avec un premier avis concret.</p>
+        </div>
+        <a href="contact.html" class="btn btn-ghost-white">
+          Démarrer un projet
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <img src="assets/logo-lockup.png" alt="developper" class="footer-logo">
+        <p style="font-size:0.9rem; max-width:32ch; margin-top:0.8rem;">Développeur freelance — sites et applications web sur-mesure, de l'idée au lancement.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="a-propos.html">À propos</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html#developpement-web">Développement web</a></li>
+          <li><a href="services.html#applications">Applications</a></li>
+          <li><a href="services.html#integration">Intégration</a></li>
+          <li><a href="services.html#maintenance">Maintenance</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:contact@developper.fr">contact@developper.fr</a></li>
+          <li><a href="tel:+33000000000">[Téléphone à ajouter]</a></li>
+          <li><a href="contact.html">Formulaire de contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> developper. Tous droits réservés.</span>
+      <span><a href="mentions-legales.html">Mentions légales & confidentialité</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="js/main.js"></script>
+</body>
+</html>
